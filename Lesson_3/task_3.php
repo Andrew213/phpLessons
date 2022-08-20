@@ -5,7 +5,7 @@ var_dump($a, $b);
 $c = $a * $b;
 $c += rand(0,100);
 
-switch (true) {
+switch ($c) {
     case $c >= 0 && $c < 100:
         echo "Больше или равно нулю и меньше 100";
         break;
